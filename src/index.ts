@@ -12,7 +12,7 @@ const app = new Hono<{
 }>()
 
 app.use('*', cors({
-  origin: 'http://localhost:5173',
+  origin: 'https://main--regal-gelato-a3822f.netlify.app',
   allowHeaders: ['Content-Type', 'Authorization'],
   allowMethods: ['POST', 'GET', 'OPTIONS'],
   exposeHeaders: ['Content-Length'],
